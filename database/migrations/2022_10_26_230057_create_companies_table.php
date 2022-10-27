@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('name')->unique();
             $table->string('email')->unique();
             $table->string('logo');
-            $table->string('path_logo');
             $table->string('website')->nullable();
             $table->timestamps();
             $table->softDeletes();
